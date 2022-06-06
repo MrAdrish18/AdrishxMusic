@@ -1,4 +1,4 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @AdrishOwner
 
 import asyncio
 from pyrogram import Client, filters
@@ -21,7 +21,7 @@ async def broadcast(_, message: Message):
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
             try:
-                await aditya.send_message(dialog.chat.id, lmao)
+                await adrish.send_message(dialog.chat.id, lmao)
                 sent = sent+1
                 await wtf.edit(f"**🥀 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭𝐢𝐧𝐠 ...** \n\n**✔️ 𝐒𝐞𝐧𝐭 𝐓𝐨:** `{sent}` **𝐂𝐡𝐚𝐭𝐬** \n**❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐈𝐧:** `{failed}` **𝐂𝐡𝐚𝐭𝐬**")
                 await asyncio.sleep(3)
