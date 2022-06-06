@@ -1,4 +1,4 @@
-# 𝐀𝐝𝐢𝐭𝐲𝐚 𝐇𝐚𝐥𝐝𝐞𝐫 // @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# Adrish X God // @AdrishOwner
 import os
 import aiofiles
 import aiohttp
@@ -107,7 +107,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@AdityaHalder)",
+        f"Powered By: AdityaXGod (@AdrishNetwork)",
         (255, 255, 255),
         font=font,
     )
@@ -135,7 +135,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "AdrishXmusic"
     usar = user
     wew = usar.id
     try:
@@ -182,7 +182,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://te.legra.ph/file/bcac4ce2a546c8012ebfa.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -267,7 +267,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://te.legra.ph/file/bcac4ce2a546c8012ebfa.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
