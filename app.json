@@ -1,87 +1,87 @@
 {
-    "name": "𝐓𝐆𝐌𝐮𝐬𝐢𝐜𝐁𝐨𝐭",
-    "logo": "https://te.legra.ph/file/2e2ddeb33674ba956148f.jpg",
-    "description": "🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐚𝐧𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐂 ✨",
+    "name": "𝗔𝗱𝗿𝗶𝘀𝗵𝗫𝗺𝘂𝘀𝗶𝗰",
+    "logo": "https://te.legra.ph/file/d2c335b2738dee89713c6.jpg",
+    "description": "🥀ADVANCE MUSIC BOT OF TELEGRAM✨",
     "keywords": ["tgmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/adityabots/tgmusicbot",
+    "repository": "https://github.com/mradrish18/adrishxmusic",
     "stack": "container",
     "env": {
         "API_HASH": {
-            "description": "𝑨𝒑𝒊 𝑯𝒂𝒔𝒉 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕",
+            "description": "Api hash of your assistant",
             "required": true
         },
         "API_ID": {
-            "description": "𝑨𝒑𝒊 𝑰𝑫 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕",
+            "description": " Api id of your assistant",
             "required": true
         },
         "ASSISTANT_NAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑵𝒂𝒎𝒆",
+            "description": "Your music assistant name",
             "required": true,
-            "value": "𝐀𝐝𝐢𝐭𝐲𝐚 𝐏𝐥𝐚𝐲𝐞𝐫"
+            "value": "Adrish player"
         },
         "ASSISTANT_USERNAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
+            "description": "Your music assistant username (without '@')",
             "required": true,
-            "value": "aditya_player"
+            "value": "adrishxmusic"
         },
         "BOT_IMAGE": {
-            "description": "𝑰𝒎𝒂𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑳𝒊𝒏𝒌 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕",
+            "description": "Image thumbnail of music bot",
             "required": true,
-            "value": "https://te.legra.ph/file/c6e1041c6c9a12913f57a.png"
+            "value": "https://te.legra.ph/file/bcac4ce2a546c8012ebfa.jpg"
         },
         "BOT_NAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑵𝒂𝒎𝒆",
+            "description": "your music bot name",
             "required": true,
-            "value": "𝐀𝐝𝐢𝐭𝐲𝐚 𝐌𝐮𝐬𝐢𝐜"
+            "value": "Adrish music"
         },
         "BOT_TOKEN": {
-            "description": "𝑮𝒆𝒕 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑭𝒓𝒐𝒎 𝑩𝒐𝒕𝑭𝒂𝒕𝒉𝒆𝒓",
+            "description": "Get Bot token from bot father",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 (𝑾𝒊𝒕𝒉𝒐𝒖𝒕 '@')",
+            "description": "Your bot username (without '@')",
             "required": true,
-            "value": "aditya_vcbot"
+            "value": "adrish1music_bot"
         },
         "DURATION_LIMIT": {
-            "description": "𝑺𝒆𝒕 𝑴𝒂𝒙𝒊𝒎𝒖𝒎 𝑴𝒖𝒔𝒊𝒄 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 𝑳𝒊𝒎𝒊𝒕 (𝑴𝒊𝒏𝒖𝒕𝒆𝒔) 𝒀𝒐𝒖 𝑾𝒂𝒏𝒕",
+            "description": "Set maximum music limit (minutes) you wang",
             "required": true,
             "value": "60"
         },
         "OWNER_NAME": {
-            "description": "𝑵𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
+            "description": "Name of bot owner",
             "required": true,
-            "value": "𝑨𝒅𝒊𝒕𝒚𝒂 𝑯𝒂𝒍𝒅𝒆𝒓"
+            "value": "AdrishXgod"
         },
         "OWNER_USERNAME": {
-            "description": "𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
+            "description": "Username of bot owner",
             "required": true,
-            "value": "AdityaHalder"
+            "value": "AdrishXgod"
         },
         "SOURCE_CODE": {
-            "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 𝑳𝒊𝒏𝒌 𝑭𝒐𝒓 𝑭𝒖𝒕𝒖𝒓𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔",
+            "description": "Music repository link",
             "required": true,
-            "value": "https://github.com/adityabots/tgmusicbot"
+            "value": "https://github.com/mradrish18/adrishxmusic"
         },
         "STRING_SESSION": {
-            "description": "𝒀𝒐𝒖𝒓 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 𝑺𝒕𝒓𝒊𝒏𝒈 𝑺𝒆𝒔𝒔𝒊𝒐𝒏 (𝑮𝒆𝒕 𝒊𝒕 𝑭𝒓𝒐𝒎 𝑹𝒆𝒑𝒍𝒊𝒕)",
+            "description": "Your program string session(Get it from replit)",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "𝑺𝒖𝒅𝒐 𝑼𝒔𝒆𝒓𝒔 𝑪𝒂𝒏 𝑪𝒐𝒏𝒕𝒓𝒐𝒍 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉𝒐𝒖𝒕 𝑨𝒅𝒎𝒊𝒏 𝑷𝒆𝒓𝒎𝒊𝒔𝒔𝒊𝒐𝒏",
+            "description": "Sudo user who control bot",
             "required": true,
             "value": "1282754256"
             
         },
         "SUPPORT_GROUP": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
+            "description": "Your telegram group full link",
             "required": true,
-            "value": "https://t.me/AdityaDiscus"
+            "value": "https://t.me/AdrishMusicSupport"
         },
         "UPDATES_CHANNEL": {
-            "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑭𝒖𝒍𝒍 𝑳𝒊𝒏𝒌",
+            "description": "Your telegram channel full link",
             "required": true,
-            "value": "https://t.me/AdityaServer"
+            "value": "https://t.me/AdrishMusicUpdates"
         }
     },
     "buildpacks": [
