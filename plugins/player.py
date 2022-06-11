@@ -205,7 +205,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                            text="😎 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 🌺",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -258,7 +258,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                            text="😎 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 🌺",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -288,7 +288,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                            text="😎 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 🌺",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -356,7 +356,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                            text="😎 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 🌺",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
